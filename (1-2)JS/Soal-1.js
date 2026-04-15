@@ -18,7 +18,12 @@
  * PUT YOUR CODE BELOW HERE
 */
 
+let tinggi = 10;
+let alas = 7;
 
+let luas = (tinggi *alas) /2 ;
+
+console.log("luas segitiga adalah =" + luas);
 
 
 

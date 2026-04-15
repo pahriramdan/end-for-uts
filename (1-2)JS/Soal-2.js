@@ -25,14 +25,14 @@
 
 //Tambahkan data kalian kedalam variable VALUE
 //Jangan ubah variable NAME
-const name = "";
-const age = "";
-const grade = "";
+const name = "fahri";
+const age = "16";
+const grade = "lima";
 
 
 //Fix this function
 function introduction(nama, umur, kelas) {
-    console.log("Hello nice to meet you, im ???, my age is ???, and right now im on ??? grade");
+    console.log("Hello nice to meet you, im ${nama}, my age is ???, and right now im on ??? grade");
 }
 
 /**
@@ -49,9 +49,8 @@ function introduction(nama, umur, kelas) {
 const programingLanguage = ["JS", "HTML", "CSS", "Java", "C++", "C#", "PHP", "Python", "Angular", "XML"];
 
 // fix this logic
-for (let i = 0; i > 1; i) {
-    console.log("I LOVE (every item on the array)");
-    
+for (let i = 0; i < programingLanguage.length; i++) {
+    console.log("I LOVE " + programingLanguage[i]);
 }
 
 
